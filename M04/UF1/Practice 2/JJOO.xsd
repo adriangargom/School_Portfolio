@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="JJOO">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="edicio" type="xs:integer"/>
+
+                <xs:element name="localitzacio">
+                    <xs:complexType>
+                        <xs:attribute name="pais" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="web">
+                    <xs:complexType>
+                        <xs:attribute name="url" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="num_participants">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="countries" type="xs:integer"/>
+                            <xs:element name="athletes" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="interest_dates">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="open_date" type="dateES"/>
+                            <xs:element name="close_date" type="dateES"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                    
+                <xs:element name="seusOnEsDisputenLesCompeticion">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="seu" maxOccurs="unbounded">
+                                <xs:complexType>
+
+                                    <xs:attribute name="nom" type="xs:string"/>
+                                    <xs:attribute name="ciutat" type="xs:string"/>
+                                    <xs:attribute name="edifici" type="xs:string"/>
+                                    <xs:attribute name="funcionalitat" type="xs:string"/>
+
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="sedesDondeSeDisputaronLasCompeticiones">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="seu" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+
+                                        <xs:element name="nomSeu">
+
+                                            <xs:complexType>
+                                                <xs:attribute name="nom" type="xs:string"/>
+                                            </xs:complexType>   
+
+                                        </xs:element>
+
+                                        <xs:element name="ciutatSeu">
+
+                                            <xs:complexType>
+                                                <xs:attribute name="ciutat" type="xs:string"/>
+                                            </xs:complexType>   
+
+                                        </xs:element>
+
+                                        <xs:element name="capacitatSeu">
+
+                                            <xs:complexType>
+                                                <xs:attribute name="capacitat" type="capacity"/>
+                                            </xs:complexType>   
+
+                                        </xs:element>
+
+                                        <xs:element name="esportsAcollits">
+                                            <xs:complexType>
+                                                <xs:sequence>
+
+                                                    <xs:element name="esport">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+
+                                                                <xs:element name="categoriaEsport" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+
+                                                                            <xs:element name="medalles">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+
+                                                                                        <xs:element name="Categoria" maxOccurs="unbounded">
+                                                                                            <xs:complexType>
+                                                                                                <xs:sequence>
+
+                                                                                                    <xs:element name="paisGuanyador">
+                                                                                                        <xs:complexType>
+                                                                                                            <xs:attribute name="pais" type="xs:string"/>
+                                                                                                        </xs:complexType>
+                                                                                                    </xs:element>
+
+                                                                                                    <xs:element name="atletaGuanyador">
+                                                                                                        <xs:complexType>
+                                                                                                            <xs:attribute name="atleta" type="xs:string"/>
+                                                                                                        </xs:complexType>
+                                                                                                    </xs:element>
+                                                                                                </xs:sequence>
+
+                                                                                                <xs:attribute name="tipusMedalla" type="medals"/>
+                                                                                                <xs:attribute name="diaGuanyada" type="dateES"/>
+                                                                                                <xs:attribute name="horaDeComencament" type="hour"/>
+                                                                                                <xs:attribute name="dinsDeLaSeuLlocDeDisputa" type="xs:string"/>
+
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+
+                                                                        <xs:attribute name="nom" type="xs:string"/>
+                                                                        <xs:attribute name="sexe" type="gender"/>
+
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+
+                                                            <xs:attribute name="nom" type="xs:string"/>
+                                                            <xs:attribute name="anyPrimerCopEsportOlimpic" type="any"/>
+                                                            <xs:attribute name="dataInici" type="dateES"/>
+                                                            <xs:attribute name="dataFinalizacio" type="dateES"/>
+
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                
+                                                <xs:attribute name="esportsAcollitsALaSeu" type="xs:string"/>
+                                            
+                                            </xs:complexType>
+                                        </xs:element>   
+
+                                    </xs:sequence>
+
+                                    <xs:attribute name="esportDisputat" type="xs:string"/>
+                                
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+
+            <xs:attribute name="identificador" type="xs:string"/>
+        
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+
+    <!-- Restrinctions -->
+
+    <!-- Date format restrinction -->
+    <xs:simpleType name="dateES">
+        <xs:restriction base="xs:string">
+
+            <xs:pattern value="[0-9]{2}/[0-9]{2}/[0-9]{4}"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Hour format Restrinction -->
+    <xs:simpleType name="hour">
+        <xs:restriction base="xs:string">
+
+            <xs:pattern value="[0-9][0-9]:[0-9][0-9]"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Medal Type Restriction -->
+    <xs:simpleType name="medals">
+        <xs:restriction base="xs:string">
+
+            <xs:enumeration value="or"/>
+            <xs:enumeration value="plata"/>
+            <xs:enumeration value="bronze"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Gender Restrinction -->
+    <xs:simpleType name="gender">
+        <xs:restriction base="xs:string">
+
+            <xs:enumeration value="masculi"/>
+            <xs:enumeration value="femeni"/>
+            <xs:enumeration value="masculi, femeni"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Capacity Restrinction -->
+    <xs:simpleType name="capacity">
+        <xs:restriction base="xs:string">
+
+            <xs:pattern value="[0-9]{3,6} - [0-9]{3,6}"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Any primer cop esport Olimpic restrinction -->
+    <xs:simpleType name="any">
+        <xs:restriction base="xs:integer">
+
+            <xs:minInclusive value="1000"/>
+            <xs:maxInclusive value="10000"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

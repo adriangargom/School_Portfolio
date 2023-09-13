@@ -1,0 +1,351 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+
+<JJOO identificador="Tokio 2020">
+
+    <edicio>Edició Nº32</edicio>
+    <localitzacio pais="Tokio, Japon"/>
+    <web url="https://olympics.com/es/olympic-games/tokyo-2020"/>
+
+    <num_participants>
+        <contries>205</contries>
+        <athletes>11420</athletes>
+    </num_participants>
+    
+    <interest_dates>
+        <open_date format_type="dd/mm/aaaa">27/07/2020</open_date>
+        <close_date format_type="dd/mm/aaaa">08/08/2020</close_date>
+    </interest_dates>
+
+    <seusOnEsDisputenLesCompeticion>
+
+        <seu nom="Seu de ceremonia d'apertura" ciutat="Tokio Japón" edifici="Estadio Olímpico de Tokio" funcionalitat="Ceremonia apertura Jocs Olimpics"/>
+        <seu nom="Seu de ceremonia clausura" ciutat="Tokio Japón" edifici="Estadio Olímpico de Tokio" funcionalitat="Ceremonia clausura Jocs Olimpics"/>
+        <seu nom="Seu de COI" ciutat="Suiza Lausana" edifici="sede central del Comité Olímpico Internacional" funcionalitat="Coordinar las actividades del Movimiento Olímpico"/>
+        <seu nom="Villa Olimpica" ciutat="Tokio Chuo Ward" edifici="Chuo Ward" funcionalitat="Acollir a atletes y personal dels jocs Olimpics"/>
+        <seu nom="Centres de medis" ciutat="Tokio Chuo Ward" edifici="Tokio Big Sight" funcionalitat="Administrar els medis de comunicacio"/>
+        <seu nom="Centre internacional de prensa" ciutat="Tokio Chuo Ward" edifici="Tokio Big Sight" funcionalitat="Administrar a la prensa"/>
+
+    </seusOnEsDisputenLesCompeticion>
+
+    <!-- Seus on es van disputar les competicions -->
+    <sedesDondeSeDisputaronLasCompeticiones>
+
+        <!--Seu de l'Esport 1. Basquet-->
+        <seu esportDisputat="Basquet">
+
+            <nomSeu nom="Saitama Super Arena"/>
+            <ciutatSeu ciutat="Chūō-ku, Saitama"/>
+            <capacitatSeu capacitat="19.000 - 22.500 persones"/>
+            
+            <!-- Esports Acollits dins de la seu -->
+            <esportsAcollits esportsAcollitsALaSeu="Boxeo, basquet, volley, tenis, hockey sobre hielo, gimnasia">
+
+                <!-- Esport 1 acollit a la seu - Basquet -->
+                <esport nom="Basquet 5x5" anyPrimerCopEsportOlimpic="1904" dataInici="25/7/2020" dataFinalizacio="8/9/2020">
+                    
+                    <!-- Categoria Numero 1 -->
+                    <categoriaEsport nom="5x5" sexe="masculi, femeni">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Estados Unidos"/>
+                                <atletaGuanyador atleta="Estados Unidos"/>
+                                <diaGuanyada pais="7/8/2020"/>
+                                <horaDeComencament hora="03:30"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="Francia"/>
+                                <atletaGuanyador atleta="Estados Unidos"/>
+                                <paisguanyador pais="7/8/2020"/>
+                                <horaDeComencament hora="03:30"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Australia"/>
+                                <atletaGuanyador atleta="Estados Unidos"/>
+                                <paisguanyador pais="7/8/2020"/>
+                                <horaDeComencament hora="03:30"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+
+                        </medalles>
+
+                    </categoriaEsport>
+
+                    <!-- Categoria Numero 2 -->
+                    <categoriaEsport nom="Basquet 3x3" sexe="masculi, femeni">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Letonia"/>
+                                <atletaGuanyador atleta="Letonia"/>
+                                <diaGuanyada pais="7/7/2020"/>
+                                <horaDeComencament hora="15:25"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="ROC"/>
+                                <atletaGuanyador atleta="ROC"/>
+                                <paisguanyador pais="7/7/2020"/>
+                                <horaDeComencament hora="15:25"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Serbia"/>
+                                <atletaGuanyador atleta="Serbia"/>
+                                <paisguanyador pais="7/7/2020"/>
+                                <horaDeComencament hora="15:25"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Saitama Super Arena"/>
+                            </Categoria>
+
+                        </medalles>
+                    </categoriaEsport>
+                </esport>
+            </esportsAcollits>
+        </seu>
+
+        <!--Seu de l'Esport 2. SkateBoarding-->
+        <seu esportDisputat="SkateBoarding">
+
+            <nomSeu nom="Parque Deportivo Urbano de Ariake"/>
+            <ciutatSeu ciutat="Ariake"/>
+            <capacitatSeu capacitat="7000"/>
+            
+            <!-- Esports Acollits dins de la seu -->
+            <esportsAcollits esportsAcollitsALaSeu="skateboarding y ciclismo olimpico">
+
+                <!-- Esport 1 acollit a la seu - Basquet -->
+                <esport nom="SkateBoarding" anyPrimerCopEsportOlimpic="1994" dataInici="24/07/2020" dataFinalizacio="25/07/2020">
+                    
+                    <!-- Categoria Numero 1 -->
+                    <categoriaEsport nom="Carrer" sexe="masculi, femeni">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Japon"/>
+                                <atletaGuanyador atleta="Yuto Horigome"/>
+                                <diaGuanyada pais="25/07/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="Brazil"/>
+                                <atletaGuanyador atleta=" Kelvin Hoefler"/>
+                                <paisguanyador pais="25/07/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Estados Unidos"/>
+                                <atletaGuanyador atleta="Jagger Eaton"/>
+                                <paisguanyador pais="25/07/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+                        </medalles>
+
+                    </categoriaEsport>
+
+                    <!-- Categoria Numero 2 -->
+                    <categoriaEsport nom="Parc" sexe="masculi, femeni">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Australia"/>
+                                <atletaGuanyador atleta="Keegan Palmer"/>
+                                <diaGuanyada pais="05/08/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="Brazil"/>
+                                <atletaGuanyador atleta="Pedro Barros"/>
+                                <paisguanyador pais="05/08/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Estados Unidos"/>
+                                <atletaGuanyador atleta="Cory Juneau"/>
+                                <paisguanyador pais="05/08/2020"/>
+                                <horaDeComencament hora="02:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Skatepark"/>
+                            </Categoria>
+
+                        </medalles>
+                    </categoriaEsport>
+                </esport>
+            </esportsAcollits>
+        </seu>
+
+        <!--Seu de l'Esport 3. Tenis de Taula-->
+        <seu esportDisputat="Ciclisme Olimpic">
+
+            <nomSeu nom="Parque Deportivo Urbano de Ariake"/>
+            <ciutatSeu ciutat="Ariake"/>
+            <capacitatSeu capacitat="5000-6000"/>
+            
+            <!-- Esports Acollits dins de la seu -->
+            <esportsAcollits esportsAcollitsALaSeu="skateboarding y ciclismo olimpico">
+
+                <!-- Esport 1 acollit a la seu - Basquet -->
+                <esport nom="Ciclisme" anyPrimerCopEsportOlimpic="1896"  dataInici="25/06/2020" dataFinalizacio="05/08/2020">
+                    
+                    <!-- Categoria Numero .1 - de BMX Freestyle-->
+                    <categoriaEsport nom="BMX Freestyle" sexe="masculi, femeni">
+
+                        <!-- Medalles -->
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Australia"/>
+                                <atletaGuanyador atleta="Logan Martin"/>
+                                <diaGuanyada dia="1/8/2020"/>
+                                <horaDeComencament hora="03:10"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="La Pista"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="Venezuela"/>
+                                <atletaGuanyador atleta="Daniel Dhers"/>
+                                <diaGuanyada dia="1/8/2020"/>
+                                <horaDeComencament hora="03:10"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="La Pista"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Reino Unido"/>
+                                <atletaGuanyador atleta="Declan Brooks"/>
+                                <diaGuanyada dia="1/8/2020"/>
+                                <horaDeComencament hora="03:10"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="La Pista"/>
+                            </Categoria>
+                        </medalles>
+
+                    </categoriaEsport>
+
+                    <!-- Categoria Numero .2 - de Montaña -->
+                    <categoriaEsport nom="Montaña" sexe="masculi, femeni">
+
+                        <!-- Medalles -->
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="Reino Unido"/>
+                                <atletaGuanyador atleta="Thomas Pidcock"/>
+                                <diaGuanyada dia="26/7/2020"/>
+                                <horaDeComencament hora="08:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="CAMPO A TRAVÉS"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="Suiza"/>
+                                <atletaGuanyador atleta="Mathias Flueckiger"/>
+                                <diaGuanyada dia="26/7/2020"/>
+                                <horaDeComencament hora="08:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="CAMPO A TRAVÉS"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="España"/>
+                                <atletaGuanyador atleta="David Valero Serrano"/>
+                                <diaGuanyada dia="26/7/2020"/>
+                                <horaDeComencament hora="08:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="CAMPO A TRAVÉS"/>
+                            </Categoria>
+
+                        </medalles>
+                    </categoriaEsport>
+                </esport>
+            </esportsAcollits>
+        </seu>
+
+        <!--Seu de l'Esport 4. Tenis de Taula-->
+        <seu esportDisputat="Tenis de taula">
+
+            <nomSeu nom="Gimnasio Metropolitano de Tokio"/>
+            <ciutatSeu ciutat="Tokio"/>
+            <capacitatSeu capacitat="10000"/>
+            
+            <esportsAcollits>
+
+                <esport nom="Tenis de mesa" anyPrimerCopEsportOlimpic="1988" dataInici="24/7/2020" dataFinalizacio="6/8/2020"> 
+
+                    <categoriaEsport nom="Individual" sexe="Femanina">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="China"/>
+                                <atletaGuanyador atleta="Meng Chen"/>
+                                <diaGuanyada dia="29/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="China"/>
+                                <atletaGuanyador atleta="Yingsha Sun"/>
+                                <diaGuanyada dia="29/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Japó"/>
+                                <atletaGuanyador atleta="Mima Ito"/>
+                                <diaGuanyada dia="29/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+                        </medalles>
+                    </categoriaEsport>
+
+                    <categoriaEsport nom="individual" sexe="Masculí">
+
+                        <medalles>
+                            <!-- Medalla de Or -->
+                            <Categoria tipusMedalla="or">
+                                <paisGuanyador pais="China"/>
+                                <atletaGuanyador atleta="Long Ma"/>
+                                <diaGuanyada dia="30/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+                            <!-- Medalla de Plata -->
+                            <Categoria tipusMedalla="plata">
+                                <paisGuanyador pais="China"/>
+                                <atletaGuanyador atleta="Zhendong Fan"/>
+                                <diaGuanyada dia="30/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+                            <!-- Medalla de Bronze -->
+                            <Categoria tipusMedalla="bronze">
+                                <paisGuanyador pais="Alemanya"/>
+                                <atletaGuanyador atleta="Dimitrij Ovtcharov"/>
+                                <diaGuanyada dia="30/07/2020"/>
+                                <horaDeComencament hora="14:00"/>
+                                <dinsDeLaSeuLlocDeDisputa lloc="Gimnasio Metropolitano de Tokio"/>
+                            </Categoria>
+
+                        </medalles>
+                    </categoriaEsport>
+                </esport>
+            </esportsAcollits>
+        </seu>
+    </sedesDondeSeDisputaronLasCompeticiones>
+</JJOO>
