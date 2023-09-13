@@ -14,4 +14,4 @@ In the third part of the course was time to consume the BBDD previously created 
 
 Involved Skills
 
-[github](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+(https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
