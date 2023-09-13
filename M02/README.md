@@ -2,6 +2,8 @@
 
 The project whe have performed during the first year of M02 consists of a SQL Relational Database of a custom theme,
 that we have been updating with new content during the course.
+-----
+
 
 ### BBDD Creation
 In the first part of the course we created the BBDD and performed all the necesary relations between all the tables.
