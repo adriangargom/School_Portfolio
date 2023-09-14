@@ -5,7 +5,7 @@ referente a los diferentes modulos realizados durante el curso
 
 ## Modulos
 <ul>
-  <li>M02 - DataBases</li>
-  <li>M03 - Programming</li>
-  <li>M04 - Markup Languages</li>
+  <li>M02 - Bases de datos</li>
+  <li>M03 - Programacion</li>
+  <li>M04 - Lenguajes de Marcas</li>
 </ul>
