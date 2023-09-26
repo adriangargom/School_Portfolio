@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+    
+    <!--Channel Restaurants-->
+    <channel>
+
+        <title>Botigues</title>
+        <category>parc/botigues</category>
+        <pubDate>Fri, 17 Feb 2023 12:30:00 +0100</pubDate>
+        <language>cat-us</language>
+        <webMaster>agarcia2@alumnat.copernic.cat (adrian)</webMaster>
+
+        <description>PortAventura Botigues</description>
+        <link>https://www.portaventuraworld.com/</link>
+
+
+        <skipDays>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+        </skipDays>
+
+        <!--Botigua 1-->
+        <item>
+            <category>Mediterrània/Llaminadures</category>
+
+            <title><![CDATA[<h2>Cal Caramel</h2>]]></title>
+
+            <link>https://www.portaventuraworld.com/ca/botigues/dolcos-mes</link>
+            <description>
+                <![CDATA[
+                <p><img src="https://media.portaventuraworld.com/mediaManager/image/c8bf4d72589c14e9bd4944597faaa1083ba3488fdad7cde7288415989eb653c2.png?tx=ar_2.00,c_crop/w_983,h_499,c_fit"></p>
+                <p>Alguna vegada has somiat en un món de dolços i llaminadures? Doncs és ben real! A Cal Caramel hi trobaràs un assortiment tan gran de llaminadures que no sabràs quines triar.</p>]]>
+            </description>
+
+            <guid>https://www.portaventuraworld.com/Botigues/001</guid>
+            <author>agarcia2@alumnat.copernic.cat (adrian)</author>
+            <pubDate>Fri, 17 Feb 2023 12:30:00 +0100</pubDate>     
+        </item>
+
+        <!--Botigua 2-->
+        <item>
+            <category>Mediterrània/Souvenirs</category>
+
+            <title><![CDATA[<h2>Mas Fonoll</h2>]]></title>
+
+            <link>https://www.portaventuraworld.com/ca/botigues/mas-fonoll</link>
+            <description>
+                <![CDATA[
+                <p><img src="https://media.portaventuraworld.com/mediaManager/image/cb891a0e026b4b0a11d99ca5d39bec568688ea4e1fc3b659dd3b27a8e923d8fa.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit"></p>
+                <p>El dia s’acaba i encara no has comprat el que tenies previst: el record que vols portar als teus nebots, cosins o amics. Tranquil! Mas Fonoll és la teva salvació.</p>]]>
+            </description>
+
+            <guid>https://www.portaventuraworld.com/Botigues/002</guid>
+            <author>agarcia2@alumnat.copernic.cat (adrian)</author>
+            <pubDate>Fri, 17 Feb 2023 12:30:00 +0100</pubDate>     
+        </item>
+
+        <!--Botigua 3-->
+        <item>
+            <category>Mediterrània/Souvenirs</category>
+
+            <title><![CDATA[<h2>ChikiTienda</h2>]]></title>
+
+
+            <link>https://www.portaventuraworld.com/ca/botigues/chikitienda</link>
+            <description>
+                <![CDATA[
+                <p><img src="https://media.portaventuraworld.com/mediaManager/image/e19600c878fd8ed11bed6fee277fa8d77e5f098685bdfeddefeabfb07755144f.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit"></p>
+                <p>T’agraden els personatges de Sesame Street? Aquí hi trobaràs articles seus, des de peluixos adorables de l’Elmo o en Cookie Monster fins a samarretes de l’Epi i en Blai. I encara hi ha més coses!</p>]]>
+            </description>
+
+            <guid>https://www.portaventuraworld.com/Botigues/003</guid>
+            <author>agarcia2@alumnat.copernic.cat (adrian)</author>
+            <pubDate>Fri, 17 Feb 2023 12:30:00 +0100</pubDate>     
+        </item>
+
+        <!--Botigua 4-->
+        <item>
+            <category>China/Souvenirs</category>
+
+            <title><![CDATA[<h2>Kambuha</h2>]]></title>
+
+            <link>https://www.portaventuraworld.com/ca/botigues/kambuha</link>
+            <description>
+                <![CDATA[
+                <p><img src="https://media.portaventuraworld.com/mediaManager/image/47e70310930f4e86667b98a64039ff4422902582fa2b0221ff4a4c28a8570d74.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit"></p>
+                <p>Animals de peluix exòtics, roba amb estampats tribals i objectes de decoració dels llocs més remots són algunes de les coses que hi trobaràs. Tot això, sense haver de travessar el mar!</p>]]>
+            </description>
+
+            <guid>https://www.portaventuraworld.com/Botigues/004</guid>
+            <author>agarcia2@alumnat.copernic.cat (adrian)</author>
+            <pubDate>Fri, 17 Feb 2023 12:30:00 +0100</pubDate>     
+        </item>
+
+    </channel>
+
+</rss>
