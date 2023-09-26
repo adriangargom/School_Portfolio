@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./main.xsl" type="text/xsl"?>
+<parc nom="CoperAventura S.A." logo="logo.jpg">
+    <adreca>Passeig de la sort, 1</adreca>
+    <ciutat>Can Puces</ciutat>
+    <pais> Espanya</pais>
+    <logo>./logo.jpg</logo>
+    <paginaWeb>http://www.coperaventura.com</paginaWeb>
+    <dates>
+        <dataObertura>08/07/2020</dataObertura>
+        <dataTancament>10/01/2021</dataTancament>
+    </dates>
+    <horaris>
+        <mes nom="Juliol">
+            <periode diaInici="1" diaFinal="31">
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Agost">
+            <periode diaInici="1" diaFinal="31">
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Setembre">
+            <periode diaInici="1" diaFinal="13">
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="14" diaFinal="30">
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Octubre">
+            <periode diaInici="1" diaFinal="10">
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="11" diaFinal="11">
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="1" diaFinal="10">
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="20:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Novembre">
+            <periode diaInici="1">
+                <diaSetmana>Dilluns</diaSetmana>
+                <diaSetmana>Dimarts</diaSetmana>
+                <diaSetmana>Dimecres</diaSetmana>
+                <diaSetmana>Dijous</diaSetmana>
+                <diaSetmana>Divendres</diaSetmana>
+                <diaSetmana>Dissabte</diaSetmana>
+                <diaSetmana diaMes="1" horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="2" diaFinal="8">
+                <diaSetmana diaMes="2">Dilluns</diaSetmana>
+                <diaSetmana diaMes="3">Dimarts</diaSetmana>
+                <diaSetmana diaMes="4">Dimecres</diaSetmana>
+                <diaSetmana diaMes="5">Dijous</diaSetmana>
+                <diaSetmana diaMes="6">Divendres</diaSetmana>
+                <diaSetmana diaMes="7" horaObertura="10:00" horaTancament="18:00">Dissabte</diaSetmana>
+                <diaSetmana diaMes="8" horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="9" diaFinal="15">
+                <diaSetmana diaMes="9">Dilluns</diaSetmana>
+                <diaSetmana diaMes="10">Dimarts</diaSetmana>
+                <diaSetmana diaMes="11">Dimecres</diaSetmana>
+                <diaSetmana diaMes="12">Dijous</diaSetmana>
+                <diaSetmana diaMes="13">Divendres</diaSetmana>
+                <diaSetmana diaMes="14" horaObertura="10:00" horaTancament="18:00">Dissabte</diaSetmana>
+                <diaSetmana diaMes="15" horaObertura="10:00" horaTancament="22:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="16" diaFinal="22">
+                <diaSetmana diaMes="16">Dilluns</diaSetmana>
+                <diaSetmana diaMes="17">Dimarts</diaSetmana>
+                <diaSetmana diaMes="18">Dimecres</diaSetmana>
+                <diaSetmana diaMes="19">Dijous</diaSetmana>
+                <diaSetmana diaMes="20">Divendres</diaSetmana>
+                <diaSetmana diaMes="21" horaObertura="10:00" horaTancament="18:00">Dissabte</diaSetmana>
+                <diaSetmana diaMes="22" horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="23" diaFinal="29">
+                <diaSetmana diaMes="23">Dilluns</diaSetmana>
+                <diaSetmana diaMes="24">Dimarts</diaSetmana>
+                <diaSetmana diaMes="25">Dimecres</diaSetmana>
+                <diaSetmana diaMes="26">Dijous</diaSetmana>
+                <diaSetmana diaMes="27" horaObertura="10:00" horaTancament="22:00">Divendres</diaSetmana>
+                <diaSetmana diaMes="28" horaObertura="10:00" horaTancament="22:00">Dissabte</diaSetmana>
+                <diaSetmana diaMes="29" horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+            <periode diaInici="30">
+                <diaSetmana diaMes="30">Dilluns</diaSetmana>
+                <diaSetmana>Dimarts</diaSetmana>
+                <diaSetmana>Dimecres</diaSetmana>
+                <diaSetmana>Dijous</diaSetmana>
+                <diaSetmana>Divendres</diaSetmana>
+                <diaSetmana>Dissabte</diaSetmana>
+                <diaSetmana>Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Desembre">
+            <periode diaInici="1" diaFinal="31">
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+        <mes nom="Gener">
+            <periode diaInici="1" diaFinal="10">
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dilluns</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dimarts</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dimecres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dijous</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Divendres</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Dissabte</diaSetmana>
+                <diaSetmana horaObertura="10:00" horaTancament="18:00">Diumenge</diaSetmana>
+            </periode>
+        </mes>
+    </horaris>
+</parc>
